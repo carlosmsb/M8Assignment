@@ -22,13 +22,23 @@ console.log(movies.length);
 //STEP 4
 let movies = ['Evil Dead', 'Hereditary', 'The Witch', 'La Belle Verte', 'Nope'];
 delete movies[0];
-console.log(movies); */
+console.log(movies); 
 //STEP 5
-
+let movies = ['Evil Dead', 'Hereditary', 'The Witch', 'La Belle Verte', 'Nope', 'Alien', 'Shrek'];
+for (let index in movies) {
+    console.log(movies[index]);
+} 
 //STEP 6
-
+let movies = ['Evil Dead', 'Hereditary', 'The Witch', 'La Belle Verte', 'Nope', 'Alien', 'Shrek'];
+for (let movie of movies) {
+    console.log(movie);
+} */
 //STEP 7
-
+let movies = ['Evil Dead', 'Hereditary', 'The Witch', 'La Belle Verte', 'Nope', 'Alien', 'Shrek'];
+movies.sort();
+for (let movie of movies) {
+    console.log(movie);
+}
 //STEP 8
 
 //STEP 9
